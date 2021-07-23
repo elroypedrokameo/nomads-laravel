@@ -230,3 +230,26 @@ header {
         text-decoration: none;
     }
 }
+
+//==============================  Details Page  ================================================
+.section-details-header {
+    min-height: 310px;
+    background: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #071c4d;
+        }
+    }
+}
