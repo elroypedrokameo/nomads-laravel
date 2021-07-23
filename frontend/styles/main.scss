@@ -177,7 +177,7 @@ header {
 
 .section-testimonial-content {
     margin-top: -300px;
-    padding-bottom: 50pc;
+    padding-bottom: 50px;
     .card-testimonial {
         padding: 40px 20px 10px;
         border-radius: 11px;
@@ -220,5 +220,13 @@ header {
             background-color: #FAFAFA;
             color: #C3C3C3;
         }
+    }
+}
+
+// Footer
+.section-footer {
+    a {
+        color: #071c4d;
+        text-decoration: none;
     }
 }

@@ -182,7 +182,7 @@ header .btn-get-started:hover {
 
 .section-testimonial-content {
   margin-top: -300px;
-  padding-bottom: 50pc;
+  padding-bottom: 50px;
 }
 
 .section-testimonial-content .card-testimonial {
@@ -235,5 +235,10 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-need-help:hover {
   background-color: #FAFAFA;
   color: #C3C3C3;
+}
+
+.section-footer a {
+  color: #071c4d;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
