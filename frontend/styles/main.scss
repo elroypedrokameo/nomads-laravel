@@ -252,4 +252,105 @@ header {
             color: #071c4d;
         }
     }
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+        h1 {
+            font-size: 26px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #B1B1B1;
+        }
+    }
+    .features {
+        margin-top: 20px;
+        h3 {
+            font-size: 18px;
+            color: #071c4d;
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        .description {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+        .features-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+}
+
+// Xzoom
+.gallery {
+    .xzoom-container {
+        display: block;
+        .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+        .xactive {
+            border: 4px solid #1ABC9C;
+            box-shadow: none;
+        }
+    }
+}
+
+// CARD RIGHT
+.members {
+    .member-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.join-container {
+    margin-top: -16px;
+}
+
+.btn-join-now {
+    background-color: #FF9E53;
+    color: #fff;
+    border-radius: 0;
+    &:hover {
+        background-color: #FFB57C;
+        color: #fff;
+    }
+}
+
+.card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+
+.features {
+    margin-top: 20px;
+    h3 {
+        font-size: 18px;
+        color: #071c4d;
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+    }
+    .features-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+    }
 }
